@@ -1,0 +1,89 @@
+body{
+  font-family:Lucida Sans
+  
+}
+.main{
+  background-image:url(https://cdn.pixabay.com/photo/2017/02/08/17/24/fantasy-2049567_960_720.jpg);
+  opacity:0.8;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  color:#fff;
+  font-size: 30;
+  background-repeat:no-repeat;
+  background-size:cover;
+  overflow-y:scroll;
+}
+.main > h1, 
+.main > p{
+  position: relative;
+  text-align: center;
+  z-index:2;
+  font-family: 40px;
+  
+}
+#main-content{
+  background-color:	;
+  
+  display:flex;
+  flex-direction: column;
+  position: relative;
+  z-index:2;
+  box-shadow: 0px -1px 20px 5px #F5F5DC;
+  max-width: 600px;
+  padding: 40px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  
+}
+#name, #email, #number, #dropdown, #comments {
+  width: 100%;
+  height: 30px;
+  border: 2px solid green;
+  color:#000;
+  background-color:#fff;
+  margin-bottom: 50px;
+  
+}
+input:invalid {
+  background-color: #ffdddd;
+}
+label[for = name],
+label[for = email],
+label[for = number],
+label[for = dropdown],
+label[for = comments]{
+  margin-bottom:10px;
+  display:inline-block;
+}
+#definetely,#maybe, #not-sure{
+  margin-top: 10px;
+  
+}
+#layout, #authors, #literature, #all, field input{
+  width:20px;
+  height: 20px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  
+}
+
+  
+}
+#comments{
+  min-height: 160px;
+}
+label[for = comments]{
+  margin-top: 30px;
+}
+#submit{
+  display:block;
+  width:100%;
+  border-radius:15%;
+  height: 35px;
+  background-color: green;
+  color:#fff;
+  box-shadow: 0px -1px 10px 1px gray;
+}
